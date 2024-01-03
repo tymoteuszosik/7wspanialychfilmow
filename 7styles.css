@@ -1,0 +1,572 @@
+/* Kaskadowe arkusze stylów */
+ 
+/* Globalne style */
+
+ 
+
+
+
+
+/* Nagłówek */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+ 
+.logo {
+    font-size: 100px;
+    font-weight: bold;
+    color:#fff;
+    text-shadow:7px 7px black;
+    font-family:'Comic Sans';
+}
+ 
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+ 
+/* Menu */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ 
+li {
+    display: inline;
+    margin-right: 10px;
+}
+ 
+a {
+    color: #fff;
+    text-decoration: none;
+}
+ 
+/* Treść dokumentu */
+#content {
+    padding: 20px;
+}
+ 
+ 
+/* Stopka */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+ 
+
+
+
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* Responsywność */
+@media screen and (max-width: 600px) {
+    /* Styl dla telefonów komórkowych */
+    /* ... */
+    .logo {
+        font-size: 5vw;
+        font-weight: bold;
+        color:#fff;
+        text-shadow:0.25vw 0.25vw black;
+        font-family:'Comic Sans';
+    }
+    .uzyj {
+        font-size:2vw;}
+        .ankieta {
+            font-size:2vw;
+        }
+
+        #tekst {
+            font-size: 3vw;
+            animation: changeColor 5s infinite; /* 5s - czas trwania animacji, infinite - animacja będzie się powtarzać */
+          }
+        
+.iframe{
+   height:1000px; width:100%;
+}
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f19946;
+}
+
+
+
+#movie{
+    font-size:1vw;
+    
+    
+            }
+
+
+
+
+
+
+            .input{
+                width:60px;
+                height:100%;
+                
+            }
+
+
+
+            .stopka{
+                font-size:1vm;
+             }
+            
+     
+             .tekst {
+                font-size: 2.5vw;
+                font-weight: bolder;
+              }
+            
+
+             
+
+
+
+
+
+
+
+              /*DROP DOWN MENU*/
+.dropbtn {
+    background-color: #ff891b;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width:100px;
+}
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #c57428;}
+
+
+  .responsive {
+    max-width: 400px;
+    height: auto;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .responsive2 {
+    max-width: 400px;
+    height: auto;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+}
+
+
+
+
+
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+ 
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+    /* Styl dla tabletów */
+    /* ... */
+    .logo {
+        font-size: 5vw;
+        font-weight: bold;
+        color:#fff;
+        text-shadow:0.25vw 0.25vw black;
+        font-family:'Comic Sans';
+    }
+
+    .uzyj {
+        font-size:2vw;}
+
+        .ankieta {
+            font-size:1vw;
+        }
+
+        #tekst {
+            font-size: 3vw;
+            animation: changeColor 5s infinite; /* 5s - czas trwania animacji, infinite - animacja będzie się powtarzać */
+          }
+          .iframe{
+            height:1350px; width:100%;
+        } 
+
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f19946;
+            
+        }
+
+        #movie{
+            font-size:1vw;
+            
+            
+                    }
+
+                    .input{
+                        width:80px;
+                        height:100%;
+                    }
+
+
+ .stopka{
+    font-size:1vm;
+ }
+
+
+
+ .tekst {
+    font-size: 2.5vw;
+    font-weight: bolder;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  
+          /*DROP DOWN MENU*/
+.dropbtn {
+    background-color: #ff891b;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width:200px;
+}
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #c57428;}
+
+
+
+  
+  .responsive {
+    max-width: 400px;
+    height: auto;display: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  
+  }
+
+  .responsive2 {
+    max-width: 400px;
+    height: auto;display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+}
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+ 
+@media screen and (min-width: 1201px) {
+    /* Styl dla komputerów */
+    /* ... */
+    .logo {
+        font-size: 5vw;
+        font-weight: bold;
+        color:#fff;
+        text-shadow:0.25vw 0.25vw black;
+        font-family:'Comic Sans';
+    }
+
+    .uzyj {
+        font-size:2vw;}
+
+
+
+        .ankieta {
+            font-size:1vw;
+        }
+
+        #tekst {
+            font-size: 3vw;
+            animation: changeColor 5s infinite; /* 5s - czas trwania animacji, infinite - animacja będzie się powtarzać */
+          }
+          .iframe{
+            height:1850px; width:100%;
+        }
+
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f19946;
+        }
+        
+
+
+        #movie{
+        font-size:1vw;
+
+
+        }
+
+
+
+
+
+        .input{
+            width:100px;
+            height:100%;
+        }
+
+        .stopka{
+            font-size:20px;
+         }
+
+
+         .tekst {
+            font-size: 2.5vw;
+            font-weight: bolder;
+          }
+        
+
+
+
+
+
+
+          /*DROP DOWN MENU*/
+.dropbtn {
+    background-color: #ff891b;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width:300px;
+}
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #c57428;}
+
+
+
+
+
+
+
+
+  .responsive {
+    max-width: 400px;
+    height: auto;display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .responsive2 {
+    max-width: 400px;
+    height: auto;display: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+        
+}
+ 
+
+
+
+
+
+
+.btn{
+    text-decoration: none;
+    padding: 0.5rem;
+    border: 1px solid #b40000;
+    font-size: 3vh;
+    animation: changeColor 1s infinite; /* 5s - czas trwania animacji, infinite - animacja będzie się powtarzać */
+}
+
+
+
+
+
+/*DROP DOWN MENU
+.dropbtn {
+    background-color: #ff891b;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  */
+ 
+
+
+  /* animacja */ 
+  
+  @keyframes changeColor {
+    0% { color: red; }
+    25% { color: blue; }
+    50% { color: green; }
+    75% { color: orange; }
+    100% { color: purple; }
+  }
+
+
+  
+
+
+
+
+
+
+
+  
+
+  table {
+    border: 1px solid #000000;
+    border-spacing: 0;
+    border-collapse: collapse;
+    padding: 5px;
+    width:100%;
+  
+}
+
+    table th {
+        border: 1px solid #000000;
+        padding: 5px;
+        background: #ff891b;
+        color: #313030;
+    }
+
+    table td {
+        border: 1px solid #000000;
+        text-align: center;
+        padding: 5px;
+        background: #eeeeee;
+        color: #313030;
+    }
+
+    .tabela{
+       margin-left:auto;
+       margin-right:auto;
+    }
+    td{
+        font-weight:bold;
+    }
+
+    tr:nth-child(even){background-color: #f2f2f2}
+
+
+
+    
